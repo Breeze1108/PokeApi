@@ -1,15 +1,30 @@
 .pokedexContainer {
-  background-color: red;
+  background-color: rgb(68, 66, 66);
   padding: 100px;
-  flex-wrap: wrap;
-  display: flexbox;
-  justify-content: space-evenly;
 
+}
+#conatiner{
+  display: inline-block;
+}
+.card_name{
+  color: white;
+  font-weight: bolder;
 }
 .card{
   justify-content: space-evenly;
   border-radius: 10px;
-  background-color: rgb(245, 241, 241);
-  height: 160px;
-  width: 120px;
+  border-color: blue;
+  border-width: 10px;
+  border-style:solid ;
+  background-color: rgb(12, 11, 11);
+  height: 310px;
+  width: 280px;
+  margin: 20px;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+}
+.card_info{
+  align-items: center;
+  color: white;
 }
